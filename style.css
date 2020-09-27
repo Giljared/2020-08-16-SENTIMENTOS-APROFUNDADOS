@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background: url(./img/mar.png);
+    text-align: center;
+    text-align: justify;
+    font-size: 2rem;
+    border-color: skyblue;    
+}
+
+}
+.um{
+    position: absolute;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(17, 145, 196);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    text-align: center;
+
+}
+.dois{
+    position: relative;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(235, 135, 193);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+}
+
+.section{
+    margin: 50px auto;
+    height: 100px;
+    width: 100px;
+
+}
+
+.rede{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    transition: all 0.4s ease-out;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+
+
+}
+
+.rede#facebook{
+    background: rgb(103, 112, 129);
+}
+.rede#github{
+    background: rgb(86, 93, 107);
+}
+.rede#linkedin{
+    background: rgb(119, 123, 131);
+}
+.icone{
+    margin: 0px auto;
+    padding: 35px;
+    width: 80px;
+  }
+.rede:hover{
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0 rgb(50,50, 50, 0.45);
+}
